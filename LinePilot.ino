@@ -48,13 +48,13 @@ digitalWrite(trigPin, LOW);
  }
  else{
   if (isLeft==1 && isRight==0) {
-    //Serial.println("Left and motor 1 operates clockwise");
+    
     digitalWrite(motorPin3,HIGH);
      digitalWrite(motorPin4,LOW);
        digitalWrite(motorPin1,LOW);
      digitalWrite(motorPin4,HIGH);
   } else if (isLeft==0 && isRight==1) {
-   // Serial.println("Right and motor 1 operates anticlockwise");
+   
     digitalWrite(motorPin3,LOW);
     digitalWrite(motorPin4,HIGH);
     digitalWrite(motorPin1,HIGH);
